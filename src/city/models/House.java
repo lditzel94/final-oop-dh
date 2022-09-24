@@ -28,10 +28,10 @@ public class House extends Estate {
     @Override
     public String toString() {
         return "Neighborhood{" +
-                "street=" + super.getStreet() +
-                "number=" + super.getNumber() +
-                "tax=" + calcTaxes() +
-                '}';
+                " street = " + super.getStreet() + "," +
+                " number = " + super.getNumber() +  "," +
+                " tax = " + calcTaxes() +
+                " }";
     }
 
 }

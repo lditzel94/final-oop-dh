@@ -43,10 +43,10 @@ public class Neighborhood extends Estate implements Composable {
     @Override
     public String toString() {
         return "Neighborhood{" +
-                "multiplier=" + multiplier +
-                "street=" + super.getStreet() +
-                "tax=" + calcTaxes() +
-                '}';
+                " multiplier = " + multiplier + "," +
+                " street = " + super.getStreet() + "," +
+                " tax = " + calcTaxes() +
+                " }";
     }
 
     private static Double sumTaxes( Double subtotal, Estate estate ) {
